@@ -114,8 +114,8 @@
             var dayName=date.toLocaleDateString('en-US',{weekday:'long'});
             newContainer.innerHTML +=` <div class="col-lg-4 col-md-12 col-sm-12 ">
                     <div class="inner shadow">
-                      <div class="today-forcast bg-fifthy text-white ">
-                        <div class="forcast-header text-center bg-sixthy py-2 w-100 ">
+                      <div class="today-forcast bg-terriary text-white ">
+                        <div class="forcast-header text-center bg-fourthy py-2 w-100 ">
                             <div class="day">${dayName}</div>
                         </div>
                         <div class="forcast-content p-3 d-flex flex-column gap-4 align-items-center justify-content-between text-center">
