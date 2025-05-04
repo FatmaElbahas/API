@@ -1,0 +1,41 @@
+@media (max-width: 576px) {
+  .forcast{
+    min-height: 800px !important ;
+   }
+   .forcast-table{
+    top: 10%;
+}
+.find2{
+  padding:0px 0px !important;
+
+}
+  }
+  @media (max-width: 768px) {
+   .forcast{
+    min-height: 900px !important ;
+    text-align: center !important;
+    margin: auto!important ;
+   }
+   .forcast-table{
+    top: 15%;
+}
+.find2{
+  padding:10px 20px !important;
+
+}
+.copy{
+  width: 100% !important;
+  font-size: 12px !important;
+}
+  }
+ 
+  @media (min-width: 1200px) {
+     .container {
+      max-width: 1140px;
+    }
+  }
+  @media (min-width: 1400px) {
+     .container {
+      max-width: 1140px;
+    }
+  }

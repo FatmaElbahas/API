@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Book your stay at our luxury hotel. Discover world-class service, comfortable rooms, and unforgettable experiences.">
+  <meta name="keywords" content="hotel, luxury hotel, room booking, travel, accommodation, vacation, hospitality">
+  <meta name="author" content="Hotel Name">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <!-- Social Media Sharing (Optional - Open Graph) -->
+  <meta property="og:title" content="Luxury Hotel Booking">
+  <meta property="og:description" content="Enjoy a luxurious stay at our hotel with premium rooms, spa, and dining. Book now!">
+  <meta property="og:image" content="https://example.com/assets/images/hotel-preview.jpg">
+  <meta property="og:url" content="https://example.com">
+  <meta property="og:type" content="website">
+
+  <title>Weather Forecast | Live Local & Global Weather Updates</title>
+  <link rel="icon" href="assets/images/logo-2x.png" type="image/png">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/icons/all.min.css">
+  <link rel="stylesheet" href="./assets/css/media.css">
+</head>
+
+<body>
+
+  
+     <nav class="navbar navbar-expand-lg  py-5  bg-main" data-bs-theme="dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <div class="logo d-flex justify-content-center align-items-center gap-2"><img src="./assets/images/logo.png" alt="logo" class="w-100 img-fluid"> 
+                <div class="title d-flex flex-column gap-1"><h1 class="h5 mb-0 ">Weather</h1> <span class="fw-lighter ">tagline goes here</span></div></div></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto  ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">Life Camera</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">Photo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  " href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+   <main class="position-relative" >
+    <div class="hero">
+        <div class="container">
+            <form class="find-location  py-5 position-relative">
+                <input type="text" id="cityInput" class="form-control rounded-5 py-3 bg-main" data-bs-theme="dark" placeholder="Find Your Location">
+                <button  id="searchBtn" class="btn btn-primary g-secondery position-absolute find"> Find</button>
+            </form>
+        </div>
+    </div>
+  <div class="forcast bg-main ">
+    <div class="forcast-table position-absolute w-100" >
+        <div class="container">
+            <div class="row d-flex g-0 gap-0" id="newContainer">
+             
+            </div>
+            </div>
+        </div>
+    
+  </div>
+  <footer class="bg-fifthy d-flex flex-column gap-0">
+    <div class="container">
+        <div class="row d-flex justify-content-between align-items-center">
+            <div class="col-md-7 col-sm-12 ">
+                <form class="find-location  py-5 position-relative mt-2">
+                    <input type="text" class="form-control rounded-5 py-3 bg-main" data-bs-theme="dark" placeholder="Enter Your Email...">
+                    <a href="" class="btn btn-primary g-secondery position-absolute find find2"> Subscribe</a>
+                </form>
+                <p class="text-white pt-0 mt-0 fs-14 copy">Copyright 2025 Fatma Elbahas. All rights reserved</p>
+            </div>
+            <div class="col-md-3 col-sm-12 ">
+                <ul class="d-flex gap-3 list-unstyled">
+                    <li>
+                      <a href="https://www.facebook.com" target="_blank">
+                        <i
+                          class="fa-brands fa-facebook rounded-circle icon d-flex justify-content-center align-items-center text-center"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com" target="_blank">
+                        <i
+                          class="fa-brands fa-instagram rounded-circle icon d-flex justify-content-center align-items-center text-center"
+                        ></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.twitter.com" target="_blank">
+                        <i
+                          class="fa-brands fa-twitter rounded-circle icon d-flex justify-content-center align-items-center text-center"
+                        ></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com" target="_blank">
+                        <i
+                          class="fa-brands fa-linkedin rounded-circle icon d-flex justify-content-center align-items-center text-center"
+                        ></i>
+                      </a>
+                    </li>
+                  </ul>            </div>
+        </div>
+    </div>
+  </footer>
+   </main>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/index.js"></script>
+
+</body>
+
+</html>

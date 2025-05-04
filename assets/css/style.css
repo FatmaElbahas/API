@@ -1,0 +1,114 @@
+:root{
+    --main-color:#1E202B;
+    --secondery-color: #009ad8;
+--terriary-color:#323544;
+--fourthy:#2D303D;
+--fifthy:#262936;
+--sixthy:#222531;
+}
+body{
+    font-family: "Roboto", sans-serif;
+
+}
+.bg-main{
+background-color: var(--main-color);
+}
+.bg-secondery{
+background-color: var(--secondery-color);
+}
+.bg-terriary{
+background-color: var(--terriary-color);
+}
+.bg-fourthy{
+background-color: var(--fourthy);
+}
+.bg-fifthy{
+background-color: var(--fifthy);
+}
+.bg-sixthy{
+background-color: var(--sixthy);
+}
+.fs-14{
+    font-size: 14px;
+}
+
+span{
+    display: inline-block;
+    font-size: 10px !important;
+}
+a,input{
+    display: inline-block !important;
+    text-decoration: none;
+}
+/* navbar */
+nav ul li a.active{
+    color: var(--secondery-color) !important;
+    border: solid var(--secondery-color) 2px;
+    border-radius: 30px;
+    padding:5px 30px !important;
+    }
+nav ul li a{
+    font-size: 14px !important;
+    border: solid transparent 2px !important;
+    border-radius: 30px;
+    padding:5px 30px !important;
+
+}
+
+nav ul li a:hover{
+    color: var(--secondery-color) !important;
+   border-color: var(--secondery-color)!important;
+
+}
+nav ul li a.active{
+    color: var(--secondery-color) !important;
+    border: solid var(--secondery-color) 2px !important;
+    border-radius: 30px;
+    padding:5px 30px !important;
+    }
+.hero{
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    min-height: 350px;
+}
+.find{
+    bottom:35% !important;
+    right: 1%;
+    padding:10px 40px !important;
+    border-radius: 30px;
+
+}
+/* .forcast-icon img{
+    width: 100% !important;
+    object-fit: cover;
+} */
+.forcast{
+    background-color: var(--main-color) !important;
+    min-height: 250px;
+}
+.forcast-table{
+    top: 25%;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    color: var(--secondery-color);
+    border: 3px solid ;
+    border-color: var(--main-color);
+    background-color: var(--main-color);
+   transition: background-color 1s ease-in-out ,color 1s ease-in-out,border-color 1s ease-in-out  ;
+    
+}
+.today-forcast {
+    height: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.forcast-header {
+    height: 50px !important;
+}
+
+.forcast-content {
+    flex-grow: 1 !important; /* يجعل الكارد يملأ المساحة المتاحة بشكل متساوي */
+}
