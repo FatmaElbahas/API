@@ -41,7 +41,7 @@
         }
     }
 
-    getWeather("London");
+    getWeather("Tanta");
 
     // دوال العرض
    
